@@ -1,0 +1,6 @@
+.serverless
+
+serverless.yml
+
+/.bundle
+/vendor
