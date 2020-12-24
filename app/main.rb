@@ -21,5 +21,5 @@ def handler(event:, context:)
 end
 
 def import_data(data)
-	ElasticsearchClient.es_target.bulk(index: ENV['ES_INDEX'], type: 'doc', body: data)
+  ElasticsearchClient.es_target.bulk(index: ENV['ES_INDEX'], type: 'doc', body: data)
 end
